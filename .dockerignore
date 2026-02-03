@@ -1,0 +1,49 @@
+# Dependencias
+node_modules
+.pnpm-store
+
+# Build local
+dist
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.manus-logs
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Nginx config (se monta como volumen)
+nginx
+
+# Documentación
+docs
+*.md
+!README.md
+
+# Tests
+*.test.ts
+*.spec.ts
+__tests__
+coverage
+
+# Otros
+.env.local
+.env.*.local
